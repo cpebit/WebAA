@@ -1,6 +1,6 @@
-# tesla-web
+# WebAA frontend
 
-The hosted web page of WebAA: the front end you open in the Tesla (or any) browser. It connects to
+The WebAA frontend: the hosted web page you open in the Tesla (or any) browser. It connects to
 the WebAA app running on the phone and shows the Android Auto screen, plays audio and sends
 touch input back. See the main [README](../README.md) for how it fits together.
 
