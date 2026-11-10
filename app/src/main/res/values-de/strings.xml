@@ -1,0 +1,31 @@
+<resources>
+
+    <string name="System_settings_desc">Um den Hotspot ein- und auszuschalten, müssen wir die Systemeinstellungen ändern, wenn Sie sich mit dem BT Ihres Autos verbinden.</string>
+    <string name="select_your_resolution">Wählen Sie Ihre Auflösung</string>
+    <string name="cantconnect">Kann keine Verbindung zum Headunit Server von Android Auto herstellen. Läuft es auf dem Handy?</string>
+    <string name="settings_bluetooth_selected_bluetooth_devices_turn_on">Bitte schalten Sie das BT Ihres Handys ein.</string>
+    <string name="settings_bluetooth_selected_bluetooth_devices_forgotten_device">Vergessenes Gerät</string>
+    <string name="settings_bluetooth_selected_bluetooth_devices_description">Kein ausgewähltes Gerät</string>
+    <string name="settings_bluetooth_selected_bluetooth_devices_title">Wählen Sie aus, mit welchem BT die App gestartet werden soll</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="status">Status</string>
+    <string name="status_all_permissions_granted">Alle Berechtigungen erteilt</string>
+    <string name="status_denied_permissions">Einige Berechtigungen fehlen</string>
+    <string name="settings_advanced_options_start_service_manually_title">Dienst manuell starten</string>
+    <string name="exit">BEENDEN</string>
+    <string name="requierments">Voraussetzungen</string>
+    <string name="vpn_service">"Die App muss einen VPN-Dienst erstellen, da der Tesla-Browser keine privaten IP-Adressen abrufen kann. "</string>
+    <string name="daynight">Tag</string>
+    <string name="navigate_to">Verbinden Sie das WLAN Ihres Autos mit dem Hotspot des Telefons und navigieren Sie zu\nhttp://www.androidwheels.com</string>
+    <string name="options">Optionen</string>
+    <string name="alert_permission_denied_title">Berechtigung erforderlich</string>
+    <string name="alert_need_draw_over_other_apps">"Die einzige Möglichkeit, Android Auto aus dem Hintergrund zu starten, besteht darin, dass die App die Berechtigung hat, über andere Apps zu zeichnen. Bitte aktivieren Sie diese Berechtigung. "</string>
+    <string name="noaa">Android Auto-Aktivität nicht gefunden. Ist Android Auto installiert?</string>
+    <string name="usevpn">VPN einrichten</string>
+    <string name="novpn">"Wenn Sie Ihren eigenen VPN-Dienst verwenden möchten, deaktivieren Sie diese Option. Stellen Sie jedoch sicher, dass der VPN, den Sie verwenden, die IP des Telefons auf %1$s setzt. "</string>
+    <string name="disconnected">Getrennt</string>
+    <string name="showdebug">FPS-Statistiken im Browser anzeigen</string>
+    <string name="nobt">Die Berechtigungen für die Nähe müssen aktiviert sein, um auf die Bluetooth-Funktionalität zugreifen zu können</string>
+    <string name="alert_need_mic">Die App benötigt eine Mikrofonberechtigung, um Sprachbefehle auszuführen.</string>
+    <string name="app_name">WebAA - Web-Oberfläche für Android Auto™</string>
+</resources>

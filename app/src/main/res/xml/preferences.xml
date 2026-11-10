@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <PreferenceCategory
+        app:iconSpaceReserved="true"
+        android:title="@string/bluetooth"
+        android:icon="@drawable/ic_bluetooth_24"
+        android:key="bluetooth_category">
+
+        <it.cpeb.teslaa.helpers.EmptyListPreference
+            app:iconSpaceReserved="true"
+            app:singleLineTitle="false"
+            android:enabled="true"
+            android:key="selected_bluetooth_devices"
+            android:persistent="true"
+            android:summary="@string/settings_bluetooth_selected_bluetooth_devices_description"
+            android:title="@string/settings_bluetooth_selected_bluetooth_devices_title" />
+
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:iconSpaceReserved="true"
+        android:title="@string/options"
+        android:icon="@drawable/ic_baseline_computer_24"
+        android:key="options_category">
+
+        <SeekBarPreference
+            android:title="DPI"
+            android:key="dpi"
+            android:enabled="true"
+            android:max="300"
+            app:min="100"
+            android:defaultValue="160"
+            app:showSeekBarValue="true"
+            />
+<!--
+        <ListPreference
+            app:iconSpaceReserved="true"
+            app:singleLineTitle="false"
+            android:enabled="true"
+            android:key="car_type"
+            android:persistent="true"
+            android:title="@string/car_type"
+            android:summary="%s"
+            android:entryValues="@array/resValues"
+            app:entries="@array/carArray"
+
+            />
+-->
+        <ListPreference
+            app:iconSpaceReserved="true"
+            app:singleLineTitle="false"
+            android:enabled="true"
+            android:key="resolution"
+            android:persistent="true"
+            android:defaultValue="1"
+            android:title="@string/select_your_resolution"
+            android:summary="%s"
+            android:entryValues="@array/resValues"
+            app:entries="@array/resArray"
+
+            />
+<!--
+        <SeekBarPreference
+            android:title="Max FPS"
+            android:key="fps"
+            android:enabled="true"
+            android:max="30"
+            app:min="10"
+            android:defaultValue="20"
+            app:showSeekBarValue="true"
+            android:summary="@string/max_fps"
+            />
+            -->
+
+        <SwitchPreferenceCompat
+            app:iconSpaceReserved="true"
+            app:singleLineTitle="false"
+            android:enabled="true"
+            android:key="usevpn"
+            android:persistent="true"
+            android:defaultValue="true"
+            android:title="@string/usevpn"
+            android:summary="@string/novpn"
+
+            />
+
+        
+
+        <SwitchPreferenceCompat
+            app:iconSpaceReserved="true"
+            app:singleLineTitle="false"
+            android:enabled="true"
+            android:key="useBT"
+            android:persistent="true"
+            android:defaultValue="true"
+            android:title="@string/useBT"
+            android:summary="@string/useBT_desc"
+
+            />
+
+ <SwitchPreferenceCompat
+            app:iconSpaceReserved="true"
+            app:singleLineTitle="false"
+            android:enabled="true"
+            android:key="showdebug"
+            android:persistent="true"
+            android:defaultValue="false"
+            android:title="@string/showdebug"
+                     />
+
+        <SwitchPreferenceCompat
+            app:iconSpaceReserved="true"
+            app:singleLineTitle="false"
+            android:enabled="true"
+            android:key="rootwifi"
+            android:persistent="true"
+            android:defaultValue="false"
+            android:title="@string/rootwifi"
+                     />
+
+        <SwitchPreferenceCompat
+            app:iconSpaceReserved="true"
+            app:singleLineTitle="false"
+            android:enabled="true"
+            android:key="rootconnectivity"
+            android:persistent="true"
+            android:defaultValue="false"
+            android:title="@string/rootconnectivity"
+                     />
+
+
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:iconSpaceReserved="true"
+        android:title="@string/status"
+        android:key="status_category">
+
+        <Preference
+            app:iconSpaceReserved="true"
+            android:enabled="true"
+            android:key="permissions_status"
+            android:persistent="false"
+            />
+
+        <Preference
+            app:iconSpaceReserved="true"
+            android:enabled="true"
+            android:key="start_service_manually"
+            android:persistent="true"
+            android:title="@string/settings_advanced_options_start_service_manually_title"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory>
+        <Preference
+            app:iconSpaceReserved="true"
+            android:enabled="true"
+            android:key="none"
+            android:persistent="true"
+            android:title="@string/requierments"
+            android:summary="@string/vpn_service"
+            />
+<!--
+        <Preference
+            app:iconSpaceReserved="true"
+            android:enabled="true"
+            android:key="none_2"
+            android:persistent="true"
+            android:summary="@string/headunit_server_runnning"
+            />
+        <Preference android:layout="@layout/helpbuttons" android:key="helpButtons"></Preference>
+-->
+    </PreferenceCategory>
+
+
+<PreferenceCategory>
+    <Preference
+        android:enabled="true"
+        android:key="none_3"
+        android:persistent="true"
+        android:summary="@string/navigate_to"
+        android:textAlignment="center"
+
+        app:iconSpaceReserved="true" />
+</PreferenceCategory>
+
+</PreferenceScreen>

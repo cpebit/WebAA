@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>WebAA for Android Auto</title>
+        <meta
+                name="viewport"
+                content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <img
+                src="mute.svg"
+                style="position:fixed;top:calc(50% - 150px);left:calc(50% - 150px);display: none;"
+                id="muteicon" />
+        <link
+                rel="icon"
+                href="favicon.ico"
+                sizes="192x192" />
+        <meta
+                name="HandheldFriendly"
+                content="true" />
+        <style>
+            * {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #494b4e;
+    color: white;
+    overscroll-behavior-x: none;
+}
+
+canvas, video {
+    width: auto;
+    height: max(1080px, 100vh);
+
+}
+
+span {
+    font-size: 3em;
+}
+
+#log {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    color: #ffeb00;
+    font-size: 1.4em;
+}
+
+#warning {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    color: red;
+    font-size: 1.4em;
+}
+        </style>
+    </head>
+
+    <body id="body">
+        <canvas></canvas>
+        <span id="info">
+            <p></p>
+            <b style="color:red">Latest Google Play Service update breaks WebAA. We are looking for
+                potential workarounds, but options are limited.
+            </b>
+            </p>Please connect to your phone's hotspot and make sure WebAA is running on the
+            phone...
+            <span style="font-size:10pt;display:block;">Please make sure you have updated your WebAA
+                app to version 2.3 or higher...
+            </span>
+        </span>
+        <span id="log"></span>
+        <span id="warning"></span>
+    </body>
+    <script src="pcm_player.js"></script>
+    <script src="main.js"></script>
+</html>

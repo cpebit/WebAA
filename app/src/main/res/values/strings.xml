@@ -1,0 +1,36 @@
+<resources>
+    <string name="System_settings_desc">We need to modify system settings in order to toggle the hotspot on and off when connecting to your cars BT.</string>
+    <string name="select_your_resolution">Select your resolution</string>
+    <string name="cantconnect">Cannot connect to the Headunit Server of Android Auto. Is it running on the phone?</string>
+    <string name="settings_bluetooth_selected_bluetooth_devices_turn_on">Please turn on your phones BT.</string>
+    <string name="settings_bluetooth_selected_bluetooth_devices_forgotten_device">Forgotten device</string>
+    <string name="settings_bluetooth_selected_bluetooth_devices_description">No selected device</string>
+    <string name="settings_bluetooth_selected_bluetooth_devices_title">Select on which BT to start the app</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="status">Status</string>
+    <string name="status_all_permissions_granted">All permissions granted</string>
+    <string name="status_denied_permissions">Some permissions are missing</string>
+    <string name="settings_advanced_options_start_service_manually_title">Start service manually</string>
+    <string name="exit">EXIT</string>
+    <string name="requierments">Requirements</string>
+    <string name="vpn_service">"The app needs to create a VPN service, due to Tesla browser not being able to access private IP addresses. "</string>
+    <string name="daynight">day</string>
+    <string name="navigate_to">Connect your car wifi to the phones hotspot and navigate to\nhttp://www.androidwheels.com</string>
+    <string name="options">Options</string>
+    <string name="alert_permission_denied_title">Permission needed</string>
+    <string name="alert_need_draw_over_other_apps">"Only way to start Android Auto from the background is if the app has permission to draw over other apps. Please enable this permission. "</string>
+    <string name="noaa">Android Auto activity not found. Is Android Auto installed?</string>
+    <string name="usevpn">Setup VPN</string>
+    <string name="novpn">"If you want to use your own VPN service, turn off this option, but make sure the VPN you are using, sets the ip of the phone to %1$s "</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="showdebug">Show FPS stats in browser</string>
+    <string name="rootwifi">Enable WiFi hotspot using root</string>
+    <string name="rootconnectivity">Spoof Tesla connectivity check (root)</string>
+    <string name="max_fps">Limiting FPS to 20-23 fps, increases responsivnes on Intel devices\nRyzen powered cars can keep the FPS up to 30</string>
+    <string name="nobt">Nearby permissions must be enable to access Bluetooth functionality</string>
+    <string name="alert_need_mic">App needs microphone permission to operate voice commands.</string>
+    <string name="app_name">WebAA - Web Interface for Android Auto™</string>
+    <string name="useBT">Play audio over BT</string>
+    <string name="useBT_desc">When option is turned off, the app will play the audio using the browser. This can produce higher quality audio, but requires more WiFi bandwith.</string>
+    <string name="set_state_tasker">Set State</string>
+</resources>

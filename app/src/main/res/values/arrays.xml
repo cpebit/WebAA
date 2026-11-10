@@ -1,0 +1,24 @@
+<resources>
+
+
+	<string-array name="resValues">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+
+
+
+	</string-array>
+
+	<string-array name="resArray">
+		<item>480p</item>
+		<item>720p</item>
+		<item>1080p</item>
+
+
+
+
+	</string-array>
+
+
+</resources>
