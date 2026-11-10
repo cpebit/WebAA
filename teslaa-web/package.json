@@ -1,0 +1,16 @@
+{
+  "name": "webaa-web",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "npx http-server src --ssl"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "yuv-canvas": "^1.2.11"
+  }
+}
