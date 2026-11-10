@@ -13,13 +13,13 @@ Web Implementation for Android Auto tuned for Tesla browser.
 | Folder | What it is |
 | --- | --- |
 | `app/` | The Android app (runs on the phone). It connects to Android Auto as a head unit, and runs local HTTPS / WebSocket servers that stream the AA screen, audio and touch input. |
-| `teslaa-web/` | The hosted web page (front end) you open in the Tesla browser. See [`teslaa-web/README.md`](teslaa-web/README.md). |
+| `tesla-web/` | The hosted web page (front end) you open in the Tesla browser. See [`tesla-web/README.md`](tesla-web/README.md). |
 
 ### How it works
 
 1. The WebAA app on the phone connects to Android Auto, acting as a head unit.
 2. The car joins the phone's network (hotspot or tethering).
-3. In the car's browser you open the web page from `teslaa-web/`, served from a normal HTTPS domain.
+3. In the car's browser you open the web page from `tesla-web/`, served from a normal HTTPS domain.
 4. The page calls the phone's API (`https://<API domain>:8081/getsocketport`) and then opens secure
    WebSockets to it for video, audio and input. The API domain must resolve to the phone and the
    phone must present a valid TLS certificate for it, because the browser refuses insecure connections.
@@ -28,11 +28,11 @@ The original deployment used `androidwheels.com` for the page and `api.androidwh
 phone, with the phone's TLS certificate downloaded from `cert.androidwheels.com`. That infrastructure
 is not part of this release. To run your own you need:
 
-- your own domain and HTTPS hosting for the `teslaa-web/src` files;
+- your own domain and HTTPS hosting for the `tesla-web/src` files;
 - a DNS name for the phone and a valid TLS certificate for it. The app's API hostname, API IP and
   certificate download URL are not editable in the settings screen; change the defaults in
   `app/src/main/java/it/cpeb/teslaa/helpers/SettingConsts.java` and rebuild;
-- the API URL in `teslaa-web/src/main.js` (`urlToFetch`) changed to your API domain.
+- the API URL in `tesla-web/src/main.js` (`urlToFetch`) changed to your API domain.
 
 ## Android Auto certificate (required, not included)
 
